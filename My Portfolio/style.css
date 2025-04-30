@@ -1,0 +1,62 @@
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: black;
+  }
+  section {
+    margin: 30px ;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px white ;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 15px 0; /* Başlıqda yuxarı və aşağı boşluğu azaldır */
+    }
+
+    section {
+        margin: 15px; /* Bölmənin ətrafındakı boşluğu azaldır */
+        padding: 15px; /* Bölmənin içindəki boşluğu azaldır */
+    }
+
+    h1 {
+        font-size: 24px; /* Başlıq ölçüsünü kiçildir */
+    }
+}
+
+/* Çox kiçik ekranlar üçün (telefonlar) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px; /* Çox kiçik ekranlarda mətni daha da kiçildir */
+    }
+
+    header {
+        font-size: 18px; /* Başlığın yazı ölçüsünü kiçildir */
+        padding: 10px 0; /* Başlıqda boşluğu daha da azaldır */
+    }
+
+    section {
+        margin: 10px; /* Bölmənin ətrafındakı boşluğu daha da azaldır */
+        padding: 10px; /* Bölmənin içindəki boşluğu daha da azaldır */
+    }
+
+    h1 {
+        font-size: 20px; /* Başlıq ölçüsünü daha da kiçildir */
+    }
+}
