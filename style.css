@@ -27,36 +27,36 @@ header {
     }
 
     header {
-        padding: 15px 0; /* Başlıqda yuxarı və aşağı boşluğu azaldır */
+        padding: 15px 0; 
     }
 
     section {
-        margin: 15px; /* Bölmənin ətrafındakı boşluğu azaldır */
-        padding: 15px; /* Bölmənin içindəki boşluğu azaldır */
+        margin: 15px; 
+        padding: 15px; 
     }
 
     h1 {
-        font-size: 24px; /* Başlıq ölçüsünü kiçildir */
+        font-size: 24px; 
     }
 }
 
-/* Çox kiçik ekranlar üçün (telefonlar) */
+
 @media screen and (max-width: 480px) {
     body {
-        font-size: 14px; /* Çox kiçik ekranlarda mətni daha da kiçildir */
+        font-size: 14px; 
     }
 
     header {
-        font-size: 18px; /* Başlığın yazı ölçüsünü kiçildir */
-        padding: 10px 0; /* Başlıqda boşluğu daha da azaldır */
+        font-size: 18px; 
+        padding: 10px 0; 
     }
 
     section {
-        margin: 10px; /* Bölmənin ətrafındakı boşluğu daha da azaldır */
-        padding: 10px; /* Bölmənin içindəki boşluğu daha da azaldır */
+        margin: 10px; 
+        padding: 10px;
     }
 
     h1 {
-        font-size: 20px; /* Başlıq ölçüsünü daha da kiçildir */
+        font-size: 20px; 
     }
 }
